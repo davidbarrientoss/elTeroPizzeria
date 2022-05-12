@@ -1,0 +1,318 @@
+/* Basic Params */
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #3e3e3f;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    color:#3e3e3f;
+    background-color: #E5E5E5;
+}
+
+.fuenteSegundaria{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navbar  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    width: 100vw;
+    background-color: #e8d1b0b4;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+
+}
+
+.divLogoNavbar{
+    display: flex;
+    margin-left: 2%;
+    margin-top: .5%;
+    width: 100%;
+    height: 100%;
+
+}
+
+header div img{
+    width: 8%;
+    min-width: 55px;
+}
+
+header div nav ul{
+    display: flex;
+
+}
+
+.divUlNavbar{
+    position: relative;
+    right: 30%;
+}
+
+header div nav ul li{
+    margin-top: 25%;
+    list-style: none;
+    margin-left: 60%;
+    width: 100%;
+}
+
+header nav a::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #5a97d1;
+    position: absolute;
+    top: 70px;
+    transition: .5s;
+}
+
+
+
+@media (hover: hover){
+    header nav a:hover::before{
+        width: 50%;
+        transition: .3s;
+    }
+    
+    header a:hover{
+        color: #5a97d1;
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .divUlNavbar{
+        position: relative;
+        right: 35%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .divUlNavbar{
+        position: relative;
+        right: 40%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .divUlNavbar{
+        position: relative;
+        right: 50%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .divUlNavbar{
+        position: relative;
+        right: 65%;
+    }
+}
+
+/* contact */
+
+.contact{
+    height: 100vh;
+    width: 100%;
+}
+
+.contact iframe{
+    margin-left: 12%;
+    padding-top: 3%;
+}
+
+.contactTittle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    padding-top: 8%;
+    padding-bottom: 2%;
+}
+
+.twoDivFlex{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.twoDivFlex>div{
+    width: 40vw;
+    height: 70vh;
+}
+
+.blueDiv{
+    background-color: #3e3e3f;
+    color: #e8d1b0;
+}
+
+.veigeDiv{
+    background-color: #e8d1b0;
+}
+
+.twoDivFlexTittle{
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    padding-bottom: 4%;
+}
+
+.contactDivContent div{
+    padding-bottom: 2%;
+    margin-left: 12%;
+}
+
+.contactDivContent p i{
+    padding-right: 1%;
+}
+
+.italic{
+    font-weight: 800;
+}
+@media screen and (max-width:720px){
+    .divUlNavbar nav li{
+        font-size: 25px;
+    }
+
+    header div nav ul li{
+        margin-left: 25%;
+    }
+
+    header{
+        height: 10%;
+    }
+
+    .divUlNavbar{
+        right: 35%;
+        bottom: 10%;
+    }
+
+    .divLogoNavbar{
+        align-items: center;
+    }
+
+    .divLogoNavbar img{
+        width: 25%;
+    }
+
+
+    .contact{
+        height: 100vh;
+    }
+
+    .veige{
+        width: 85%;
+    }
+
+    .veigeTittle{
+        font-size: 40px;
+    }
+
+    .twoDivFlexTittle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .twoDivFlexTittle span{
+        font-size: 48px;
+    }
+    .contactTittle{
+        font-size: 34px;
+        padding-bottom: 5%;
+        padding-top: 25%;
+    }
+
+
+    .twoDivFlex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .twoDivFlex>div{
+        padding-left: 15%;
+        width: 70%;
+        height:40vh;
+    }
+
+    .contactDivContent>div, .twoDivFlexTittle,.contact iframe{
+        font-size: 20px;
+        margin-left:0;
+    }
+
+    iframe{
+        height: 150px;
+    }
+}
+
+@media screen and(max-width:380)and(max-width:670){
+    .divUlNavbar nav li{
+        font-size: 10px;
+    }
+
+    header div nav ul li{
+        margin-left: 25%;
+    }
+
+    header{
+        height: 10%;
+    }
+
+    .divUlNavbar{
+        right: 35%;
+    }
+
+    .contact{
+        height: 110vh;
+    }
+
+    iframe{
+        height: 170px;
+    }
+
+    .twoDivFlexTittle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .twoDivFlexTittle span{
+        font-size: 28px;
+    }
+
+    .contactTittle{
+        font-size: 34px;
+        padding-bottom: 5%;
+    }
+
+
+    .twoDivFlex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .twoDivFlex>div{
+        padding-left: 15%;
+        width: 70%;
+        height:45vh;
+    }
+
+    .contactDivContent>div, .twoDivFlexTittle,.contact iframe{
+        font-size: 20px;
+        margin-left:0;
+    }
+}

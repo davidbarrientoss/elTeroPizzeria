@@ -1,0 +1,1055 @@
+/* Basic Params */
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #3e3e3f;
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+    color:#3e3e3f;
+    background-color: #E5E5E5;
+}
+
+.fuenteSegundaria{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Navbar  */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    width: 100vw;
+    background-color: #e8d1b0b4;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+
+}
+
+.divLogoNavbar{
+    display: flex;
+    margin-left: 2%;
+    margin-top: .5%;
+    width: 100%;
+    height: 100%;
+
+}
+
+header div img{
+    width: 8%;
+    min-width: 55px;
+}
+
+header div nav ul{
+    display: flex;
+
+}
+
+.divUlNavbar{
+    position: relative;
+    right: 30%;
+}
+
+header div nav ul li{
+    margin-top: 25%;
+    list-style: none;
+    margin-left: 60%;
+    width: 100%;
+}
+
+header nav a::before{
+    content: "";
+    width: 0%;
+    height: 3px;
+    background-color: #5a97d1;
+    position: absolute;
+    top: 70px;
+    transition: .5s;
+}
+
+/* First Div */
+
+.firstDiv0{
+    margin-top: 6.5%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.firstDiv0>img{
+    width: 100%;
+}
+
+
+.firstDiv{
+    width: 100%;
+    height: 160vh;
+    background-color: #E5E5E5;
+}
+
+
+ 
+/* Letras y fotos first Div*/
+
+.firstDivParagraphs{
+    display: flex;
+    width: 70vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-top: 13%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+
+.firstDivParagraphs img{
+    width: 15%;
+    position: relative;
+    left: 43%;
+}
+
+
+.firstDivParagraphs h1,h2,h3{
+    width: 70vw;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+}
+
+.firstDivParagraphs h1{
+    font-weight:600;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.firstDivParagraphs h2{
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.firstDivParagraphs .fuenteSegundaria{
+    font-weight: 600;
+}
+
+.firstDivPhotos{
+    background-image: url("https://img.freepik.com/foto-gratis/textura-fondo_1404-99.jpg?t=st=1649188945~exp=1649189545~hmac=1acbc6cc5dd43ab191ccfa5556145d53d6e8820aad77ab212ad427e50ec94020&w=996");
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.firstDivPhotos img{
+    width: 35%;
+}
+
+.firstDivPhotos .two{
+    position: relative;
+    right: 15%;
+    z-index: 2;
+}
+
+.firstDivPhotos .one{
+    position: relative;
+    left: 50%;
+    bottom: 20vh;
+    z-index: 3;
+}
+
+.firstDiv1{
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+
+.firstDiv1 p{
+    padding-top: 5%;
+    width: 35vw;
+}
+
+/* menu recomendation */
+
+.menuRecomendationDiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.ourFavourite{
+    width: 80%;
+}
+    
+
+.menuRecomendation{
+    height: 35vh;
+    width: 50%;
+    border: 3px solid #5a97d1;
+    border-radius: 15px;
+    position: relative;
+    left: 10%;
+}
+
+
+.recomendationTittle{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 7vh;
+}
+
+
+.recomendationPict{
+   position: relative;
+   width: 10%;
+   height: 30vh;
+    top: 4vh;
+    right: 37%;
+   border-radius: 100%;
+}
+
+.insideInsideDiv{
+    position: relative;
+    width: 40%;
+    top: 1vh;
+    left: 45%;
+    bottom:20vh;
+} 
+
+.insideInsideDiv p{
+    padding-bottom: 10%;
+}
+
+.ourFavourite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: relative;
+    top: 5vh;
+    left: 30vw;
+    z-index: 4;
+    background-color: #5a97d1;
+    width: 30%;
+}
+
+.ourFavourite span{
+    color:white;
+}
+
+/* Dish div */
+.dishDiv{
+    padding: 0 10% 2% 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dishTittle{
+    display: flex;
+    align-items: center;
+    width: 350%;
+}
+.dishTittle i{
+    padding-left: 5%;
+}
+
+.dishTittle span{
+    padding-right: 3%;
+    display: flex;
+}
+
+.dishDescription{
+    width: 30%;
+}
+
+/* second div */
+.secondDiv h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+.secondDiv{
+    background-color: #e8d1b0;
+    width: 100%;
+    height: 350vh;
+}
+.secondDiv img{
+    width: 15%;
+}
+
+.tittleDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* slider */
+
+.slider{
+    padding-bottom: 7%;
+}
+
+.slider img{
+    width: 90%;
+
+}
+
+.slider div span{
+    display: flex;
+    justify-content: center;
+}
+
+.slick-center img{
+    width: 95%;
+}
+
+.slick-prev{
+    position: absolute;
+    top: 43vh;
+    left: 2%;
+    z-index: 4;
+}
+
+.slick-next{
+    position: absolute;
+    bottom: 60vh;
+    right: 2%;
+}
+
+/* Third Div */
+
+.thirdDiv{
+    background-color: #E5E5E5;
+    width: 100%;
+    height: 280vh;
+}
+
+.thirdDiv h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+/* legendDiv */
+
+.legendDiv{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2%;
+}
+.legendDiv ul{
+    list-style: none;
+
+}
+
+
+.legendDiv>div{
+    border: 2px solid #3e3e3f;
+    border-radius: 20px;
+    width: 15%;
+    height: 15vh;
+    display: flex;
+    line-height: 4vh;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ourFavourite1 */
+
+.ourFavourite1{
+    padding-top: 10vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourFavourite1Border{
+    width: 50%;
+    height: 35vh;
+    border: 3px solid #e8d1b0;
+    border-radius: 15px;
+}
+
+.ourFavouriteTittle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourFavourite1 .fuenteSegundaria{
+    padding: 2% 2% 2% 50%;
+    width: 40%;
+}
+
+.ourFavourite1Img img{
+    position: relative;
+    left: 30%;
+    bottom: 20vh;
+    width: 15%;
+    border-radius: 100%;
+}
+
+.ourFavouriteDescription span{
+    padding-left: 50%;
+}
+
+.unSaborAutentico span{
+    position: relative;
+    left: 60%;
+    background-color: #e8d1b0;
+    border-radius: 12px;
+}
+
+/* ingrediente extra */
+
+.extraIngredient{
+    padding-top: 6vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.extraIngredient>div{
+    border: 2px solid #3e3e3f;
+    width: 18%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* empanadas */
+
+.empanadasDiv{
+    height: 245vh;
+    width: 100%;
+    background-color: #e8d1b0;
+}
+
+.empanadasDiv .tittleDiv h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.flexEmpanada{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+    list-style: none;
+
+}
+
+.dosEur {
+    width: 10%;
+    position: relative;
+    left: 65%;
+
+}
+
+.flexEmpanada span{
+    font-weight:800;
+    font-size: 25px;
+}
+
+/* Postres div */
+
+.dessertDiv .tittleDiv {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.iceCreamPict img{
+    width: 35%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.iceCreamDivv{
+    padding:0 20% 2% 20%;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listTittle{
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.subtittle{
+    display: flex;
+    justify-content: center;
+    padding: 3% 0;
+}
+
+.iceCreamPosition div{
+    position: relative;
+    left: 60%;
+    bottom: 70vh;
+    padding-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.iceCreamDescription{
+    position: relative;
+    width: 25%;
+    padding-top: 2%;
+    left: 60%;
+    bottom: 70vh;
+}
+
+/* drinkingDiv */
+
+.drinkingDiv .tittleDiv span{
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    padding-bottom: 3%;
+    font-weight: 900;
+
+}
+
+.drinkingDiv{
+    background-color: #e8d1b0;
+    width: 100%;
+    height: 65vh;
+}
+
+.drinkingDiv section div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20% 2% 20%;
+
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+    background-image:url("https://img.freepik.com/foto-gratis/textura-fondo_1404-99.jpg?t=st=1649188945~exp=1649189545~hmac=1acbc6cc5dd43ab191ccfa5556145d53d6e8820aad77ab212ad427e50ec94020&w=996");
+}
+
+footer img{
+    width: 10%;
+    padding-left: 2%;
+}
+
+footer>div{
+    width: 40%;
+    padding-top: 2%;
+    padding-right: 10%;
+    display: flex;
+    max-width: 650px;
+}
+
+footer div div{
+    padding-right: 2%;
+    padding-top: 2%;
+    width: 100%;
+    color: #3e3e3f;
+}
+
+@media screen and (max-width:721px) {
+    .firstDiv1{
+        height: 40vh;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (hover: hover){
+    header nav a:hover::before{
+        width: 50%;
+        transition: .3s;
+    }
+    
+    header a:hover{
+        color: #5a97d1;
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .divUlNavbar{
+        position: relative;
+        right: 35%;
+    }
+
+    .secondDiv{
+        height: 240vh;
+    }
+
+    .thirdDiv{
+        height: 230vh;
+    }
+
+    .legendDiv li{
+        width: 120%;
+    }
+
+    .empanadasDiv{
+        height: 200vh;
+    }
+
+    .firstDiv0 img{
+        margin-top: 3vh;
+    }
+
+    .firstDiv{
+        height: 120vh;
+    }
+
+    .recomendationPict{
+        max-height: 200px;
+    }
+
+    .ourFavourite{
+        position: relative;
+        left: 60%;
+        top:0%;
+        width: 40%;
+        height: 10%;
+    }
+
+    .dishDiv{
+        padding: .5% 5%;
+    }
+
+    .dishTittle .listTittle{
+        width: 40%;
+    }
+
+    .dishDescription{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .divUlNavbar{
+        position: relative;
+        right: 40%;
+    }
+
+    .firstDiv0 img{
+        margin-top: 5.5vh;
+    }
+
+    .firstDiv{
+        height: 110vh;
+    }
+
+    .iceCreamPosition div{
+        bottom: 65vh;
+    }
+
+    .iceCreamDescription{
+        bottom: 65vh;
+    }
+
+    .dessertDiv{
+        height: 200vh;
+    }
+
+    .extraIngredient div{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .divUlNavbar{
+        position: relative;
+        right: 50%;
+    }
+
+    .thirdDiv{
+        height: 210vh;
+    }
+
+    .empanadasDiv{
+        height: 170vh;
+    }
+
+    .firstDiv0 img{
+        margin-top: 7vh;
+    }
+
+    .firstDiv{
+        height: 100vh;
+    }
+
+    .dishDiv{
+        padding: 1% 5%;
+    }
+
+    .recomendationPict{
+        max-height: 150px;
+        top: 10vh;
+    }
+
+    .ourFavourite{
+        width: 50%;
+    }
+
+    .legendDiv div{
+        width: 30%;
+    }
+}
+
+@media screen and(max-width:740px){
+    .secondDiv{
+        height: 300vh;
+    }
+}
+
+@media screen and (max-width:720px) and (min-height:1200px){
+    header div nav ul li{
+        margin-left: 20%;
+    }
+
+    .divUlNavbar nav li{
+        font-size: 25px;
+    }
+
+    header{
+        height: 10%;
+    }
+
+    .divUlNavbar{
+        position: relative;
+        right: 30%;
+        bottom: 15%;
+    }
+
+    .divLogoNavbar{
+        align-items: center;
+    }
+
+    .divLogoNavbar img{
+        width: 25%;
+    }
+
+    .secondDiv{
+        height: 300vh;
+    }
+
+    .thirdDiv{
+        height: 270vh;
+    }
+
+    .ourFavourite1>div{
+        height: 25vh;
+        width: 70%;
+    }
+
+    .extraIngredient div{
+        width: 55%;
+    }
+
+    .slider span,.insideInsideDiv p, .insideInsideDiv span,.dishTittle .fuenteSegundaria,.dishDescription span,.extraIngredient span,.legendDiv span,.ourFavouriteDescription p,.ourFavouriteDescription span,.unSaborAutentico, footer p,.iceCreamDescription,.iceCreamPrice{
+        font-size: 25px;
+    }
+
+    .listTittle{
+        font-size: 25px;
+    }
+
+    .tittleDiv span{
+        font-size: 60px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 900;
+    }
+
+    .flexEmpanada span{
+        font-size: 35px;
+    }
+
+    .dosEur{
+        width: 25%;
+    }
+
+    .iceCreamPosition div{
+        bottom: -5vh;
+        left: 20%;
+        width: 60%;
+    }
+
+    .iceCreamDescription{
+        width: 50%;
+        bottom: -10vh;
+       left: 20%;
+    }
+
+    .drinkingDiv{
+        height: 40vh;
+    }
+    
+    .drinkingDiv .tittleDiv{
+        padding-bottom: 10%;
+    }
+
+    .recomendationTittle{
+        font-size: 25px;
+    }
+
+    .ourFavourite{
+        font-size: 25px;
+        top: 1vh;
+    }
+
+    .unSaborAutentico{
+        position: relative;
+        top: 6vh;
+    }
+
+    .ourFavourite1Img{
+        position: relative;
+        top: 3%;
+        right: 6%;
+    }
+
+    .recomendationPict{
+        right: 50%;
+        width: 100%;
+        top: 15vh;
+        max-height: 100px;
+
+    }
+
+    .tittleDiv h1{
+        font-size: 50px;
+    }
+
+    .firstDiv{
+        height: 70vh;
+    }
+
+    .firstDiv1{
+        height: 40%;
+    }
+
+    .firstDiv1 p{
+        font-size: 25px;
+        width: 50%;
+    }
+
+    .dishDiv{
+        padding-top: 10%;
+    }
+
+    .menuRecomendation{
+        width: 70%;
+        height: 70%;
+    }
+
+    footer .fuenteSegundaria div{
+        font-size: 20px;
+        padding-top: 15%;
+    }
+
+    footer .fuenteSegundaria{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer img{
+        width: 20%;
+    }
+
+    footer div{
+        padding-bottom: 5%;
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width:680px) {
+    .divUlNavbar{
+        position: relative;
+        right: 65%;
+    }
+}
+
+@media screen and (max-width:380px) and (max-height:670px){
+    .divUlNavbar li{
+        font-size: 10px ;
+        padding-right: 0;
+    }
+
+    header{
+        height: 10.5vh;
+    }
+
+    .divLogoNavbar {
+        margin-top: 2.5%;
+    }
+
+    .firstDiv0{
+        margin-top: 10vh;
+    }
+
+    .dishDiv .listTittle{
+        width: 100%;
+    }
+    .ourFavourite1Border{
+        width: 70%;
+        height: 250%;
+    }
+
+    .recomendationTittle h2,.ourFavouriteTittle h2{
+        font-size: 20px;
+    }
+
+    .ourFavouriteDescription{
+        width: 150%;
+        position: relative;
+        right: 20%;
+    }
+
+    .tittleDiv h1{
+        font-size: 35px;
+    }
+
+    .recomendationPict{
+        max-height: 70px;
+        position: relative;
+        bottom:35%;
+        right: 53%;
+    }
+
+    .ourFavourite{
+        top: 7%;
+        width: 60%;
+        left: 40%;
+    }
+
+
+    .extraIngredient div{
+        width: 60%;
+    }
+
+    .insideInsideDiv{
+        width: 60%;
+        position: relative;
+        left: 40%;
+    }
+
+    .menuRecomendation{
+        width: 70%;
+        height: 30vh;
+    }
+
+    .dishTittle span{
+        font-size: 14px;
+    }
+
+    .ourFavouriteDescription{
+        position: relative;
+        right: 35%;
+    }
+
+    .dessertDiv .subtittle{
+        font-size: 12px;
+        position: relative;
+        padding-bottom: 10%;
+    }
+
+    .flexEmpanada span{
+        font-size: 20px;
+    }
+
+    .iceCreamDivv .listTittle,.iceCreamPosition .listTittle,.drinkingDiv .listTittle{
+        font-size: 20px;
+    }
+
+    .drinkingDiv .tittleDiv{
+        margin-bottom: 10%;
+    }
+
+    .iceCreamPosition div{
+        position: relative;
+        bottom: -3vh;
+        left: 10vh;
+    }
+
+    .iceCreamDescription{
+        bottom: -5vh;
+        left: 20%;
+        width: 60%;
+    }
+
+    .dessertDiv{
+        height: 180vh;
+    }
+
+    .drinkingDiv{
+        height: 50vh;
+    }
+
+    footer img{
+        width: 20%;
+    }
+
+
+
+    .iceCreamPict{
+        padding-left: 12%;
+    }
+    .iceCreamPosition .listTittle{
+        padding-right: 90%;
+    }
+
+    .empanadaCaramelizada{
+        position: relative;
+        padding-top: 3%;
+        left: 22%;
+    }
+
+    .dosEur{
+        width: 25%;
+    }
+
+    .ourFavourite1Img{
+        position: relative;
+        top: 5%;
+        right: 10%;
+    }
+
+    .unSaborAutentico{
+        position: relative;
+        top: 2%;
+        right: 10%;
+    }
+
+    .slider span,.insideInsideDiv p, .insideInsideDiv span,.dishTittle .fuenteSegundaria,.dishDescription span,.extraIngredient span,.legendDiv span,.ourFavouriteDescription p,.ourFavouriteDescription span,.unSaborAutentico, footer p,.iceCreamDescription,.iceCreamPrice,.ourFavourite span,.firstDiv1{
+        font-size: 12px;
+    }
+}
